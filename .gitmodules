@@ -1,0 +1,3 @@
+[submodule "subModules"]
+	path = subModules
+	url = https://github.com/carusProg/CantoneseDictionary
