@@ -5,16 +5,7 @@ var qs = require('querystring');
 var template = require('./lib/template.js');
 var path = require('path');
 var sanitizeHtml = require('sanitize-html');
-var mysql      = require('mysql');
-var db = mysql.createConnection({
-  host     : '35.239.26.210',
-  user     : 'root',
-  password : '062806',
-  database : 'opentutorials'
-  // port : '3307'
-});
-db.connect();
-
+var db = require('./nodejs/mysql.js');
 
 
 
